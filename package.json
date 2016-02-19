@@ -1,0 +1,21 @@
+{
+  "name": "duo-openvpn-cache",
+  "version": "0.0.1",
+  "description": "Authentication script to cache 2FA connections to OpenVPN",
+  "main": "auth.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heap/duo-openvpn-cache.git"
+  },
+  "author": "Toby Brain",
+  "license": "SEE LICENSE IN LICENSE",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "duo-api": "^1.0.10",
+    "log": "^1.4.0",
+    "moment": "^2.11.2"
+  }
+}
